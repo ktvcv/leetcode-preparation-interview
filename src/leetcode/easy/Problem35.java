@@ -18,13 +18,13 @@ public class Problem35 {
         int end = nums.length - 1;
 
         while (start <= end) {
-            int mid = start + (end - start) / 2;
-            if (nums[mid] == target) {
-                return mid;
-            } else if (nums[mid] > target)
-                end = mid - 1;
+            int midArray = start + (end - start) / 2;
+            if (nums[midArray] == target) {
+                return midArray;
+            } else if (nums[midArray] > target)
+                end = midArray - 1;
             else
-                start = mid + 1;
+                start = midArray + 1;
         }
 
         return start;
