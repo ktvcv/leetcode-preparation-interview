@@ -1,5 +1,7 @@
 package leetcode.easy;
 
+import lombok.ToString;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -48,5 +50,12 @@ class TreeNode {
         this.val = val;
         this.left = left;
         this.right = right;
+    }
+
+    @Override
+    public String toString() {
+        return "TreeNode{" +
+            "val=" + val +
+            '}';
     }
 }
