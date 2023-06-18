@@ -1,7 +1,5 @@
 package leetcode.easy;
 
-import lombok.ToString;
-
 import java.util.ArrayList;
 import java.util.List;
 
