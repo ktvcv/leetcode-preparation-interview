@@ -1,6 +1,9 @@
 package leetcode.easy;
 
+import kotlin.reflect.jvm.internal.impl.serialization.deserialization.ProtoContainer;
+
 import java.util.Objects;
+
 
 public class SameTree_100 {
 
@@ -26,10 +29,10 @@ public class SameTree_100 {
             if (q == null){
                 return false;
             }
+            
             return isEqual(p, q) && compareLeft(p.left, q.left)
                 && compareLeft(p.right, q.right);
         }
-
 
         boolean isEqual(TreeNode p, TreeNode q) {
             return

@@ -17,11 +17,6 @@ public class Symmetric_Tree_101 {
 
     boolean symmetrical(TreeNode p, TreeNode q) {
 
-        Integer k = Arrays.asList(1,2,3)
-            .stream()
-            .max(Comparator.comparingInt(Integer::intValue))
-            .orElseThrow(() -> {throw new RuntimeException();});
-
         if (p == null && q == null){
             return true;
         }

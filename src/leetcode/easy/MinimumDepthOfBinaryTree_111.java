@@ -17,6 +17,7 @@ public class MinimumDepthOfBinaryTree_111 {
         final int left = minDepth(root.left);
         final int right = minDepth(root.right);
 
+        //
         if (left == 0 && left < right){
             return right + 1;
         } else if (right == 0 && right < left){
