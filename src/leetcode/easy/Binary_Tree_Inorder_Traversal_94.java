@@ -32,7 +32,7 @@ public class Binary_Tree_Inorder_Traversal_94 {
 
 }
 
-class TreeNode {
+ class TreeNode {
     int val;
     TreeNode left;
     TreeNode right;

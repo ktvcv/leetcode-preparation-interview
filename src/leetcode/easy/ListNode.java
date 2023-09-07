@@ -5,7 +5,7 @@ public class ListNode {
     public ListNode next;
     public boolean isSorted;
 
-    ListNode() {
+    public ListNode() {
     }
 
     public ListNode(int val) {
