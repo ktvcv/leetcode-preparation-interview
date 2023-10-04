@@ -35,6 +35,7 @@ public class Problem88 {
         if (nums2.length == 0 || nums1.length == 0){
             return;
         }
+        //in case of empty array
 
         int i = Math.max(m - 1, 0);
         int j = Math.max(n - 1, 0);

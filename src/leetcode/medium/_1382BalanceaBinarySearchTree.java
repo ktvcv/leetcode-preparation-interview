@@ -27,7 +27,7 @@ public class _1382BalanceaBinarySearchTree {
         list.add(root.val);
         inorder(list, root.right);
     }
-
+ // 1 2 3 4 5 6 7
     private TreeNode balanced(List<Integer> list, int low, int high) {
 
         if (low > high) {

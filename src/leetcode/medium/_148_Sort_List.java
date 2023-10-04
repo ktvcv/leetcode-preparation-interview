@@ -71,8 +71,8 @@ public class _148_Sort_List {
         ListNode current = dummy;
 
         //add to list one by one
-        while (left != null && right != null){
-            if (left.val > right.val){
+        while (left != null && right != null) {
+            if (left.val > right.val) {
                 current = right;
                 right = right.next;
             } else {
