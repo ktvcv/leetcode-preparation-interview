@@ -7,7 +7,7 @@ public class Binary_Tree_Inorder_Traversal_94 {
 //Given the root of a binary tree, return
 // the inorder traversal of its nodes' values.
 
-    public List<Integer> inorderTraversal(TreeNode root) {
+    public static List<Integer> inorderTraversal(TreeNode root) {
 
         final List<Integer> integers = new ArrayList<>();
         if (root == null) {
@@ -18,7 +18,7 @@ public class Binary_Tree_Inorder_Traversal_94 {
         return integers;
     }
 
-    void addInorder(TreeNode node, List<Integer> integers) {
+    static void addInorder(TreeNode node, List<Integer> integers) {
         if (node == null)
             return;
 
